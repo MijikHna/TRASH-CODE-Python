@@ -1,0 +1,19 @@
+{
+  "python.pythonPath": "venv/bin/python",
+  "python.testing.pytestArgs": ["tests002"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "pytest-tests",
+      "database": "test_db",
+      "username": "test_user",
+      "password": "password"
+    }
+  ]
+}
